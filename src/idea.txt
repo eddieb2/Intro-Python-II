@@ -1,0 +1,2 @@
+1. Add a mini map to display location
+    Once location is discovered show portion of the map

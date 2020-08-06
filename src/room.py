@@ -1,7 +1,10 @@
 # Implement a class to hold room information. This should have name and
 # description attributes.
 
-'''
-Day 1 MVP
-Fill out Player and Room classes in player.py and room.py
-'''
+class Room:
+    def __init__(self, name, description):
+        self.name = name
+        self.description = description
+
+    def __str__(self):
+        return f'Room: {self.name}, Description: {self.description}'
