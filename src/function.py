@@ -34,17 +34,33 @@
 # repl_parser()
 
 # Message displaying game instructions
-def game_instructions():
-    commands = {
-        'n': 'North',
-        's': 'South',
-        'e': 'East',
-        'w': 'West',
-    }
+# def game_instructions():
+#     commands = {
+#         'n': 'North',
+#         's': 'South',
+#         'e': 'East',
+#         'w': 'West',
+#     }
+#
+#     print('--------------------------------------')
+#     print('|Here is a list of available commands|')
+#     print('--------------------------------------')
+#
+#     for key in commands:
+#         print(f'{key} = {commands[key]}')
 
-    print('--------------------------------------')
-    print('|Here is a list of available commands|')
-    print('--------------------------------------')
+# l1 = [1,2,3,4]
+# for item in l1:
+#     print(item)
+#     if item == 5:
+#         print('item already exists')
+#     else:
+#         l1.append(5)
 
-    for key in commands:
-        print(f'{key} = {commands[key]}')
+
+s1 = set()
+s1.add('hi')
+s1.remove('hi')
+print(s1)
+# for item in s1:
+#     print(item)

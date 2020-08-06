@@ -1,2 +1,14 @@
 1. Add a mini map to display location
     Once location is discovered show portion of the map
+
+2. Allow rooms to hold items & players,
+    Room class
+        - hidden items = list
+
+    Player class
+        - inventory = list
+
+    Add a feature that allows the player to search the room by typing 'search'
+    This search feature will generate a random num,
+        if the player's random num matches the random number of the item,
+        add the item to the player's inventory
